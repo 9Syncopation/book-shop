@@ -1,0 +1,39 @@
+body{
+    background-image:url(../img/header1.jpg);
+    /* background-repeat: no-repeat; */
+    margin: auto;
+    text-align: center;
+
+}
+body.trl{
+    direction: rtl;
+}
+
+
+.book-list{
+    margin: auto;
+}
+
+
+
+h1{
+    color: blue;
+    margin: auto;
+    font-style: italic;
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+    
+}
+
+table, th{
+    border: black;
+    background-color: rgb(191, 211, 77);
+}
+.header img {
+    width: 200px;
+    display:none;
+    margin: auto;
+}

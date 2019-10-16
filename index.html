@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>My book Shop</title>
+</head>
+<body onload="onInit()">
+    <h1 data-trans = "title" > Mybookshop </h1>
+    <!-- <img src="img/header.jpg" alt="Book-shop-logo" title="This is the Logo" /> -->
+    <div class="add-book" >
+        <h2 data-trans="action" >Add Book</h2>
+        <input data-trans= "add-todo-placeholder" type="text" class="book-name" placeholder="Enter Book Name" />
+        <button onclick="onAddBook()"data-trans="add" >Add</button>
+    </div>
+    <select onchange="onSetLang(this.value)">
+        <option value="en">English</option>
+        <option value="he">עברית</option>
+        <option value="es">Spanish</option>
+    </select>
+    <table class="book-list">
+             <th data-trans="book_name"> Book Name</th>
+             <th data-trans="book_price">Price</th>
+
+    </table>
+
+
+
+    <script src="js/util-services.js"></script>
+    <script src="js/i18n-service.js"></script>
+    <script src="js/services.js"></script>
+    <script src="js/controller.js"></script>
+</body>
+</html>
